@@ -1,0 +1,9 @@
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore environment files
+.env
+
+# Ignore build and output directories
+build/
+dist/
