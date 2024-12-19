@@ -30,7 +30,7 @@ This project is aimed at developing a dynamic pricing system for e-commerce plat
 - **CatBoost**: Machine learning framework for regression tasks.
 
 ## Team Members
-- **Korol Maxim Maximovich**: Project Manager, Data Scientist.
+- **Korol Maksim Maximovich**: Project Manager, Data Scientist.
 - **Shkolin Alexander Yuryevich**: Data Scientist.
 - **Nechaev Danila Konstantinovich**: Data Scientist.
 - **Gareev Eldar Rustemovich**: Data Scientist.
