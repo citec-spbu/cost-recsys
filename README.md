@@ -23,8 +23,9 @@ This project is aimed at developing a dynamic pricing system for e-commerce plat
    - Visualized results through graphs to highlight demand-price relationships and optimization outcomes.
 
 ## Usage guide
-Example datasets at _backend/examples/_  
+Example datasets at _backend/examples/_
 ### Ready API
+URL - http://158.160.17.229:12345/docs
 ### Setup for own
 Build image
 ```commandline
