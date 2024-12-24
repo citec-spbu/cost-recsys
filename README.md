@@ -22,12 +22,41 @@ This project is aimed at developing a dynamic pricing system for e-commerce plat
 4. **Visualization**:
    - Visualized results through graphs to highlight demand-price relationships and optimization outcomes.
 
+## Usage guide
+Example datasets at _backend/examples/_  
+### Ready API
+### Setup for own
+Build image
+```commandline
+docker build -t master-cost-recsys -f Dockerfile .
+```
+Run container
+```commandline
+docker run -d -p 12345:12345 --name master-cost-recsys master-cost-recsys
+```
+### Methods
+1. **Train**  
+Allows to train a model on your own data  
+ - weights_name: string  
+ - target_column_name: string  
+> For example datasets (backend/examples/) = "_purchase_count_prod_"
+
+ - iterations: int
+ - depth: int
+ - file: .csv example-like format
+
+2. **Predict**  
+Allows to use of trained models and download predictions
+ - weights_name: string
+ - target_column_name: string
+
 ## Tools and Libraries
 - **Python**: Main programming language for analytics and development.
 - **Pandas**: Data manipulation and cleaning.
 - **Matplotlib**: Data visualization.
 - **NumPy**: Numerical computations.
 - **CatBoost**: Machine learning framework for regression tasks.
+- **fastapi**: Web framework for building APIs with Python
 
 ## Team Members
 - **Korol Maksim Maximovich**: Project Manager, Data Scientist.
